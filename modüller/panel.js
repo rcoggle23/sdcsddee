@@ -26,6 +26,13 @@ module.exports = (client) => {
     domain: `https://vortex-altyaps.glitch.me`
   };
   
+// PROJEYİ GİZLİYE ALMAYI UNUTMA
+// PROJEYİ GİZLİYE ALMAYI UNUTMA
+// PROJEYİ GİZLİYE ALMAYI UNUTMA
+// PROJEYİ GİZLİYE ALMAYI UNUTMA
+// PROJEYİ GİZLİYE ALMAYI UNUTMA
+// PROJEYİ GİZLİYE ALMAYI UNUTMA
+  
   console.log('BAŞARILI')
   
   const dataDir = path.resolve(`${process.cwd()}${path.sep}panel`);
