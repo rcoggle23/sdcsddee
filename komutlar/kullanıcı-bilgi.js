@@ -61,7 +61,7 @@ exports.conf = {
   permLevel: 0
 };
 exports.help = {
-  name: 'kullanıcı-bilgi',
+  name: 'profil',
   description: 'İstediğiniz kullanıcını bilgilerini gösterir.',
-  usage: 'kullanıcı-bilgi'
+  usage: 'profil'
 };
