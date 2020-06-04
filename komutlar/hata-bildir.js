@@ -16,7 +16,7 @@ exports.run = async (client, message) => {
 
     message.reply('Hatanız iletildi');
 
-    var hataHook = new Discord.WebhookClient("658210476928270356", "WuvX9oRY3_lpej0PFl_2PxE9MNT6JmETAyGQukjcyNPOOkJFdjyYO3C_05FOMNjMYtqV")
+    var hataHook = new Discord.WebhookClient("718067653293506590", "J8PsGCiOcK3XnKr6mY_GrntMtR8TO0GZI7Y_HpPqjIJldU5aBiuEKLSjHyJKJ7IyzETQ")
 // hhttps://discordapp.com/api/webhooks/551482350228209675/izxsGh5YBWu3k67MpKTnwF3GD_KQyPnwi2DEEv6VlIG2M56aYaAzom-GHvP5Nw8fwqQV
     var embed = new Discord.RichEmbed()
     .setColor("0x36393F")
