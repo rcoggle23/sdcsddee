@@ -1,4 +1,4 @@
-const Discord = require('discord.js')
+  const Discord = require('discord.js')
 const Pokedex = require('pokedex-api')
 const pokedex = new Pokedex()
  
