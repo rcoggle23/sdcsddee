@@ -27,11 +27,11 @@ const AloneHata = "#f30707";
 
 const emmmmbed = new Discord.MessageEmbed()
 .setThumbnail()
-.addField(`Lord Creative | Teşekkürler`, `**Selamlar, Ben Lord Creative (Lord Creative'nin Geliştiricisi) Öncelikle Botumuzu Eklediğiniz ve Bize Destek Olduğunuz İçin Sizlere Teşekkürlerimi Sunarım**`)
-.addField(`Alone | Prefix`, `**Lord Creative Botun Prefixi(ön eki) = \`${fynx.prefix}\`\n\n Değiştirebilmek için \`${fynx.prefix}prefix\` Yazabilirsiniz.**`)
-.addField(`Lord Creative | Nasıl Kullanılır?`, `**Lord Creative botun tüm özelliklerinden yararlanabilmek için sadece \`${fynx.prefix}yardım\` yazmanız yeterlidir.**`)
-.addField(`Lord Creative | Linkler`, `**Sohbet Kanalına -davet Yazmanız Yeterlidir**`)
-.setFooter(`Lord Creative | Gelişmiş Türkçe Bot | 2020`)
+.addField(` Voixy | Teşekkürler`, `**Selamlar, Ben  Voixy (Voixy'nin Geliştiricisi) Öncelikle Botumuzu Eklediğiniz ve Bize Destek Olduğunuz İçin Sizlere Teşekkürlerimi Sunarım**`)
+.addField(`Voixy | Prefix`, `** Voixy Botun Prefixi(ön eki) = \`${fynx.prefix}\`\n\n Değiştirebilmek için \`${fynx.prefix}prefix\` Yazabilirsiniz.**`)
+.addField(` Voixy| Nasıl Kullanılır?`, `**Lord Creative botun tüm özelliklerinden yararlanabilmek için sadece \`${fynx.prefix}yardım\` yazmanız yeterlidir.**`)
+.addField(` Voixy | Linkler`, `**Sohbet Kanalına -davet Yazmanız Yeterlidir**`)
+.setFooter(` Voixy | Gelişmiş Türkçe Bot | 2023`)
 .setTimestamp();
 
 
@@ -121,11 +121,11 @@ process.exit(0)
 const bot = new Discord.Client();
 
 var oyun = [
-`✨ Yardım almak için | -yardım`,
-`🚀 Yeni Özellikler İçin | -yardım`,
+`✨ Yardım almak için | !yardım`,
+`🚀 Benim Daha İyi Olmam İçin Hosting Sponsoru Arıyorum | !yardım`,
 `🔔 Yenilenen Tasarımı İle`,
-`⚡️ Botu eklemek için | -davet`,
-`🌟 Prefix ayarlamak için | -prefix`
+`⚡️ Botu eklemek için | !davet`,
+`🌟 Prefix ayarlamak için | !prefix`
 ]
   
 client.on("ready", () => {
