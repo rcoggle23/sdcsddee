@@ -5,7 +5,7 @@ exports.run = async (client, message, args) => {
 let prefix = await db.fetch(`prefix.${message.guild.id}`) || fynx.prefix 
 let eklenti = new Discord.MessageEmbed()  
 .setColor('#ffffff') 
-.setAuthor(`Lord Creative Oto Rol Komutları`, client.user.avatarURL())
+.setAuthor(`Voixy  Oto Rol Komutları`, client.user.avatarURL())
 .setDescription(`<:a_:821738957997211659>  Lord Creative botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)
 .addField(`__Oto Rol Ayarla__`,`<:a_:821738957997211659>  \`${prefix}otorol-ayarla\` Sunucunuzda Otorol Ayarlar.`,true)
 .addField(`__Oto Rol Kapat__`,`<:a_:821738957997211659>  \`${prefix}otorol-kapat\` Sunucunuzdaki Otorol'ü Kapatır.`,true)

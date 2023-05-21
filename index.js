@@ -106,7 +106,7 @@ newState.setSelfDeaf(true);
 //---------------------------------------------------------\\
 
 
-client.login(fynx.fynxtoken)
+client.login(process.env.token)
 .then(function() {
 console.log('Token doğru. Bot aktif ediliyor.')
 }, function(err) {

@@ -5,7 +5,7 @@ exports.run = async (client, message, args) => {
 let prefix = await db.fetch(`prefix.${message.guild.id}`) || fynx.prefix 
 let eklenti = new Discord.MessageEmbed()  
 .setColor('#ffffff') 
-.setAuthor(`Lord Creative Müzik Komutları`, client.user.avatarURL())
+.setAuthor(`Voixy   Müzik Komutları`, client.user.avatarURL())
 .setDescription(`<:a_:821738957997211659>  Lord Creative botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)
 .addField(`__Müzik Oynat__`,`<:a_:821738957997211659>  \`${prefix}oynat\` İstediğiniz Şarkıyı Başlatır`,true)
 .addField(`__Müziği Duraklat__`,`<:a_:821738957997211659>  \`${prefix}duraklat\` Şarkıyı Durdurur`,true)

@@ -13,13 +13,13 @@ const onerisiz = new Discord.MessageEmbed()
 .setColor(AloneHata)
 .setTitle("• Hata: 0014 •")
 .setDescription("Öneri gönderebilmek için bir öneri belirtiniz.")
-.setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2020`);
+.setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2023`);
 
 const onerili = new Discord.MessageEmbed()
 .setColor(AloneDogru)
-.setTitle("Lord Creative | Başarılı")
+.setTitle("Voixy | Başarılı")
 .setDescription("Öneriniz alınmıştır! Teşekkür ederiz.")
-.setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2020`);  
+.setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2023`);  
   
 
   var öneri = args.slice(0).join(" ");

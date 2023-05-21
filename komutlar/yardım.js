@@ -4,7 +4,7 @@ const fynx = require("../ayarlar/bot.json");
 exports.run = async (client, message, args) => { 
 let prefix = await db.fetch(`prefix.${message.guild.id}`) || fynx.prefix 
 let eklenti = new Discord.MessageEmbed()  
-.setAuthor(`Lord Creative Yardım Menüsü`, client.user.avatarURL())
+.setAuthor(`Voixy Yardım Menüsü`, client.user.avatarURL())
 .setColor('#ffffff')
 .setDescription(`<:a_:821738957997211659>  Lord Creative botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)  
 .addField(`__Genel Komutlar__`,`<:a_:821738957997211659>  \`${prefix}genel\``,true)

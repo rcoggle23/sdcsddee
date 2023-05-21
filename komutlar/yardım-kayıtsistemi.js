@@ -5,7 +5,7 @@ exports.run = async (client, message, args) => {
 let prefix = await db.fetch(`prefix.${message.guild.id}`) || fynx.prefix 
 let eklenti = new Discord.MessageEmbed()  
 .setColor('#ffffff') 
-.setAuthor(`Lord Creative Eklenti Komutları`, client.user.avatarURL())
+.setAuthor(`Voixy   Eklenti Komutları`, client.user.avatarURL())
 .setDescription(`<:a_:821738957997211659>  Lord Creative botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)
 .addField(`__Kanal Ayarla__`,`<:a_:821738957997211659>  \`${prefix}kayıt-kanal-ayarla\` Kayıt Ol Komutunun Kullanılacağı Kanalı Belirler`,true)
 .addField(`__Kayıt Log__`,`<:a_:821738957997211659>  \`${prefix}kayıt-log-kanal-ayarla\` Kayıt Ol Komutunun Denetim Kaydı Kanalını Belirler`,true)
