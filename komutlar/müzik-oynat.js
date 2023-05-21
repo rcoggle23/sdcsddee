@@ -16,7 +16,7 @@ const hata1 = new Discord.MessageEmbed()
 .setTitle("• Hata: 003 •")
 .setThumbnail(`https://media.tenor.com/images/c7463075c551b137548f34f15ec656a3/tenor.gif`)
 .setDescription(`<:a_:821738957997211659>   **| Müzik oynatabilmek için bir ses kanalında olmanız gerekmektedir!**`)
-.setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2020`, client.user.avatarURL());  
+.setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2023`, client.user.avatarURL());  
 if(!message.member.voice.channel) return message.channel.send(hata1)
 
 //------------------------------------------------//

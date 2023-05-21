@@ -17,7 +17,7 @@ const hata4 = new Discord.MessageEmbed()
 .setTitle("• Hata: 004 •")
 .setThumbnail(`https://drummofficial.com/wp-content/uploads/2017/08/equalizer3.gif`)
 .setDescription(`<:a_:821738957997211659>   **| Oynatılan bir müziği geçebilmek için bir ses kanalında olmanız gerekmektedir!**`)
-.setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2020`, client.user.avatarURL());  
+.setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2023`, client.user.avatarURL());  
 if(!message.member.voice.channel) return message.channel.send(hata4)
 
 //------------------------------------------------//

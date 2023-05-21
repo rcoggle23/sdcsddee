@@ -24,9 +24,9 @@ const onerili = new Discord.MessageEmbed()
 
   var öneri = args.slice(0).join(" ");
  
-  var guildID = "666967704569380864"; // Sunucu ID
+  var guildID = "1108785729015926814"; // Sunucu ID
  
-  var channelID = "718509292675923998"; // Kanal ID
+  var channelID = "1109826543494115328"; // Kanal ID
  
   if (!öneri) {
     return message.channel.send(embed);

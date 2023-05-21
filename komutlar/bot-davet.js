@@ -9,7 +9,7 @@ exports.run = async (client, message, args) => {
 const embed = new Discord.MessageEmbed()
 .setColor("#ffffff")
 .setAuthor(`Voixy Linkler`, client.user.avatarURL())
-.setDescription('**• [Voixy`i Ekleyin.](https://discord.com/api/oauth2/authorize?client_id=1109427651174731917&permissions=8&scope=bot [Voixy Botumuza  Oy Ver](Yakında')
+.setDescription('**• [Voixy`i Ekleyin.](https://discord.com/api/oauth2/authorize?client_id=1109427651174731917&permissions=8&scope=bot [Voixy Botumuza  Oy Ver](Yakında**')
 .setFooter(`${message.author.username} tarafından istendi!`) 
 .setTimestamp()
 .setThumbnail(client.user.avatarURL())

@@ -13,7 +13,7 @@ module.exports.run = async (client, message) => {
 .setTitle("Lord Creative | Kuyruğu Temizle")
 .setDescription(`<:a_:821738957997211659>  **| Müzik Kuyruğu, ${message.author} tarafından temizlendi.**`) 
 .setThumbnail(`https://drummofficial.com/wp-content/uploads/2017/08/equalizer3.gif`)
-.setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2020`, client.user.avatarURL());   
+.setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2023`, client.user.avatarURL());   
   
   	let p = db.fetch(`prefix.${message.guild.id}`) || ayarlar.prefix;
 

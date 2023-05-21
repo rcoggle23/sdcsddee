@@ -6,7 +6,7 @@ let prefix = await db.fetch(`prefix.${message.guild.id}`) || fynx.prefix
 let eklenti = new Discord.MessageEmbed()  
 .setAuthor(`Voixy Yardım Menüsü`, client.user.avatarURL())
 .setColor('#ffffff')
-.setDescription(`<:a_:821738957997211659>  Lord Creative botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)  
+.setDescription(`<:a_:821738957997211659> Voixy botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)  
 .addField(`__Genel Komutlar__`,`<:a_:821738957997211659>  \`${prefix}genel\``,true)
 .addField(`__Mod Komutları__`,`<:a_:821738957997211659>  \`${prefix}moderasyon\` `,true)
 .addField(`__Guard Komutları__`,`<:a_:821738957997211659>  \`${prefix}guard\`  `,true)

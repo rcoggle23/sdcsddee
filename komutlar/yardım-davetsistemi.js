@@ -6,8 +6,8 @@ exports.run = async (client, message, args) => {
 let prefix = await db.fetch(`prefix.${message.guild.id}`) || fynx.prefix 
 let eklenti = new Discord.MessageEmbed()  
 .setColor('#ffffff') 
-.setAuthor(`Lord Creative Davet Sistemi`, client.user.avatarURL())
-.setDescription(`<:a_:821738957997211659>  Lord Creative botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)
+.setAuthor(`Voixy   Davet Sistemi`, client.user.avatarURL())
+.setDescription(`<:a_:821738957997211659>  Voixy  botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)
 .addField(`__Davet Kanal__`,`<:a_:821738957997211659>  \`${prefix}davet-kanal\` Sunucunuzda Kaç Kişinin Ne Kadar Daveti Olduğunu Gösteren Kanalı Ayarlar`,true)
 .addField(`__Kanal Sıfırla__`,`<:a_:821738957997211659>  \`${prefix}davet-kanal-sıfırla\` Sunucunuzda Kaç Kişinin Ne Kadar Daveti Olduğunu Gösteren Kanalı Sıfırlar`,true)
 .addField(`__Davet Ekle__`,`<:a_:821738957997211659>  \`${prefix}davet-ekle\` Etiketlediğiniz Kişinin Davet Sayısını Arttırır`,true)

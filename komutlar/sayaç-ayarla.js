@@ -15,7 +15,7 @@ if (!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send(
  if(message.guild.memberCount > args[1]) return message.channel.send(`<:a_:821738957997211659>   **Belirttiğin Sayı Çok Küçük Veya O Sayıya Zaten Ulaşmışsın!**\n**__Örnek Kullanım__** : \`${prefix}sayaç-ayarla #kanal <Sayı>\``)
 
  
-  message.channel.send(`╔▬▬▬▬▬▬▬▬Lord Creative Sayaç▬▬▬▬▬▬▬▬▬
+  message.channel.send(`╔▬▬▬▬▬▬▬▬ Voixy  Sayaç▬▬▬▬▬▬▬▬▬
 ║► <:a_:821738957997211659>  Sayaç Aktif Edildi.
 ║► <:a_:821738957997211659>  **${args[1]}** Olarak Güncelledim! 
 ║► <:a_:821738957997211659>  Kayıt Kanalını **${kanal}** Olarak Güncelledim! 
